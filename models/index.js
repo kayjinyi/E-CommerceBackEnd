@@ -12,15 +12,14 @@ const ProductTag = require("./ProductTag");
 
 // Tags belongToMany Products (through ProductTag)
 Category.hasMany(Product, {
-  foreignKey: "  ",
-  onDelete: "CASCADE",
+  foreignKey: "category_id",
+  onDelete: "CASCADE", //???
 });
 
 Product.belongsTo(Category, {
-  foreignKey: "  ",
+  foreignKey: "category_id",
 });
 
-// The association can also be created from the Car side
 Product.belongsToMany(Tag, {
   foreignKey: "  ",
 });
