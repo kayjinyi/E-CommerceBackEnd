@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
+    "db": "mysql -u root -p < ./db/database.sql",
     "seed": "node seeds/index.js"
   },
   "repository": {
