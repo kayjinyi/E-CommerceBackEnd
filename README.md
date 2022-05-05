@@ -12,7 +12,7 @@
 
 ## Walkthrough video
 
-[walkthrough video ](https://watch.screencastify.com/v/PNvavS7FV2XilAiQ4GuT) <br>
+[walkthrough video ](https://watch.screencastify.com/v/vfjAih5qTvsACaAFiqpY) <br>
 
 ---
 
@@ -54,15 +54,21 @@ Use environment variables to store sensitive data like your MySQL username, pass
 
 The following pic shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
+![In Insomnia, the user tests “GET tags”.](./Assets/tags.png)
+![In Insomnia, the user tests “GET Categories,”.](./Assets/categories.png)
+![In Insomnia, the user tests “GET All Products.”.](./Assets/products.png)
 
 The following pic shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
+![In Insomnia, the user tests “GET tag by id.” ](./Assets/tag1.png)
+![In Insomnia, the user tests “GET Category by ID,”](./Assets/category1.png)
+![In Insomnia, the user tests “GET One Product.”](./Assets/product1.png)
 
 The following pic shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
 
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+![In Insomnia, the user tests “DELETE Category by ID,” ](./Assets/Delete.png)
+![In Insomnia, the user tests  “CREATE Category,” ](./Assets/Create.png)
+![In Insomnia, the user tests  “UPDATE Category.”](./Assets/Update.png)
 
 ---
 
